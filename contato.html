@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="style_home.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre Mim</a></li>
+                    <li><a href="portifolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <br>
+</body>
+
+<main>
+    <section class="principal_contato">  
+            <h1>Obrigado pela atenção!</h1>
+            <p> Se desejar, pode entrar em contato comigo, só preencher os campos que retornarei o mais rápido possível.</p>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome:</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea cols="68,5" rows="10" id="mensagem" required></textarea>
+                <fieldset>
+                    <legend>Como prefere entrar em contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whats"><input type="radio" name="contato" value="Whatsapp" id="radio-whats" checked>Whatsapp</label>
+                    
+                    <input type="submit" value="Enviar formulário" class="enviar">
+                </fieldset>
+
+                <footer>
+                <p class="copyright">&copy; 2024 Felipe Styzey. Todos os direitos reservados.</p>
+                </footer>
+            </form>
+    </section>
+</main>
+
+</html>

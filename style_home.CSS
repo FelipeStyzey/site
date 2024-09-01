@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navegação entre páginas*/
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+/* Cabeçalho */
+header {
+    background: #556B2F;
+    padding: 20px 0;
+}
+
+/* Seção Principal das páginas */
+.principal {
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 20px;
+    text-align: center;
+    min-height: 30vh;
+}
+
+.principal_sobre {
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.principal_contato {
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 20px;
+    text-align: left;
+    min-height: 100vh;
+}
+
+.principal_portfolio {
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 20px;
+    text-align: left;
+    min-height: 100vh;
+}
+
+.titulo-principal {
+    padding-left: 10px;
+}
+
+/* Estilo da Imagem do Felipe */
+.profile img {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10%; /* Exemplo de estilo: transforma a imagem em um círculo */
+    border: 2px solid #556B2F; /* Exemplo de estilo: borda ao redor da imagem */
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+/* Aqui são as caixas da pagina contato*/
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:20%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Josefin+Sans:wght@600&family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aqui são os campos da página portfólio*/
+.apresentacao{
+    margin:  10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__titulo{
+    font-size: 36px;
+    font-family: 'Courier Prime', monospace;
+}
+.apresentacao__paragrafo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__links__link{
+    background-color: #556B2F;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    margin: 15px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
